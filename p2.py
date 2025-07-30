@@ -20,7 +20,7 @@ import plotly.express as px
 import plotly.figure_factory as ff
 import joblib
 
-logo = Image.open('/logo.jpg')
+logo = Image.open('logo.jpg')
 st.image(logo)
 
 st.title('Customer Churn Prediction')
